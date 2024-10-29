@@ -15,3 +15,18 @@ plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.grid(True)
 plt.show()
+import matplotlib.pyplot as plt
+
+# داده‌ها
+x = [1, 2, 3, 4]
+y = [10, 20, 25, 30]
+
+# رسم گرافیکی با رنگ و علامت‌گذاری
+plt.plot(x, y, 'ro-')  # 'r' برای قرمز، 'o' برای علامت دایره، '-' برای خط ممتد
+
+# تنظیمات
+plt.title("First Plot with Colors")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.grid(True)
+plt.show()
